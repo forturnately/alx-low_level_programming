@@ -20,7 +20,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	else
 		printf("%d is positivie\n", n);
-
-	
 	return (0);
 }
