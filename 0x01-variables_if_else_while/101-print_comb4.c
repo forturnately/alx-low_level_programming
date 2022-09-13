@@ -4,7 +4,7 @@
  * main - program that prints all possible different combinations of
  * three digits
  * Numbers must be separated by , followed by a space
- * The two digits must be differen
+ * The two digits must be different
  * 012, 120, 102, 021, 210, are considered the same combination
  * Return: 0
  */
@@ -27,7 +27,7 @@ int main(void)
 				putchar(n2);
 				putchar(n3);
 				if (n1 != 55 || n2 != 56 || n3 != 57)
-				}
+				{
 					putchar(com);
 					putchar(32);
 				}
