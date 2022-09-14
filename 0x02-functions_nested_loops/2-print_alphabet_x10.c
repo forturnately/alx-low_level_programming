@@ -4,7 +4,7 @@
  * Return: nothing.
  */
 
-int main(void)
+int main()
 {
 	int l;
 	int n = 0;
