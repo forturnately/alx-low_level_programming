@@ -4,7 +4,7 @@
  * Return: nothing.
  */
 
-void print_ten_letters(void)
+int main(void)
 {
 	int l;
 	int n = 0;
