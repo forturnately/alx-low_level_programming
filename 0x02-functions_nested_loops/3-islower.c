@@ -6,14 +6,10 @@
  * Return: int.
  */
 
-
-
 int _islower(int c)
-
-{	
-	while(c <=122 && c >=97)
-	{
-		return ("It's lowercase");
-	}
-	return ("It's Uppercase");
+{
+	if (c >= 97 && c <= 122)
+		return (1);
+	else
+		return (0);
 }
