@@ -1,19 +1,19 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * main - program that prints _putchar.
- * Return: Always 0 (Success)
+ * Return: init
  */
 
 int main(void)
 {
-	int a = 0;
-	char print_word[8] = "_putchar";
+	int n = 0;
+	char str_put[8] = "_putchar";
 
-	while (a < 8)
+	while (n < 8)
 	{
-		putchar(print_word[a]);
-		a += 1;
+		putchar(str_put[n]);
+		n += 1;
 	}
 	putchar('\n');
 	return (0);
