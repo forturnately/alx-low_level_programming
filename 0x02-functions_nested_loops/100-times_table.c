@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_times_table - Prints a multiplication table up to param
  * @n: The number to be treated
@@ -30,8 +31,7 @@ void print_times_table(int n)
 					_putchar(32);
 					_putchar(32);
 					_putchar(((z / 10) % 10) + '0');
-					_putchar((z % 10) + '0');
-									
+					_putchar((z % 10) + '0');				
 				}
 				else
 				{
@@ -46,8 +46,6 @@ void print_times_table(int n)
 				}
 			}
 			_putchar('\n');
-
 		}
 	}
 }
-
