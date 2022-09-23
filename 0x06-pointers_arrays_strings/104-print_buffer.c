@@ -1,3 +1,4 @@
+
 #include "main.h"
 #include <stdio.h>
 
@@ -11,8 +12,8 @@
 void print_buffer(char *b, int size)
 {
 	int o, j, i;
-
 	o = 0;
+
 	if (size <= 0)
 	{
 		printf("\n");
