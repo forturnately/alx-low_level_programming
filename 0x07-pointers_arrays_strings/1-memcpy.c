@@ -2,27 +2,20 @@
 #include "main.h"
 
 /**
- * _strncat - appends src to the dest string
- * @dest: string to append by src
- * @src: string to append to dest
- * @n: largest number of bytes to append
- * Return: address of dest
+ * _memcpy - copies a memory area
+ * @dest: memory area to be copied to
+ * @src: memory area to be copied from
+ * @n: number of bytes to be copied
+ * Return: pointer to the copied memory block
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i, j;
+	unsigned int i = 0;
 
-	i = j = 0;
-	while (*(dest + i))
-		i++;
-	while (j < n && *(src + j))
+	for (; i < n; i++)
 	{
-		*(dest + i) = *(src + j);
-		i++;
-		j++;
+		dest[i] = src[i];
 	}
-	if (j < n)
-		*(dest + i) = *(src + j);
 	return (dest);
 }
